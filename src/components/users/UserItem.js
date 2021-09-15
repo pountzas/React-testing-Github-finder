@@ -2,20 +2,6 @@ import React from 'react'
 import propTypes from 'prop-types';
 
 const UserItem = ({ user: { login, avatar_url, html_url }} ) => {
-  // constructor() {
-  //   super()
-  //   console.log(13)
-  //   this.
-
-
-  // state = {
-  //   id: 'id',
-  //   login: 'mojombo',
-  //   avatar_url: 'https://avatars.githubusercontent.com/u/1?v=4',
-  //   html_url: 'https://github.com/mojombo',
-  // }
-
-  // const { login, avatar_url, html_url } = props.user
 
   return (
     <div className="card text-center">
